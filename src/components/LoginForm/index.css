@@ -1,0 +1,166 @@
+/* Write your CSS code here */
+.login-bg-conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  .login-bg-conatiner {
+    justify-content: unset;
+    max-height: 100vh;
+  }
+}
+
+.login-second-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  .login-second-container {
+    flex-direction: column;
+    width: 100%;
+    max-height: 100vh;
+  }
+}
+
+.login-side-img {
+  height: 300px;
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .login-side-img {
+    display: none;
+  }
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+@media (max-width: 576px) {
+  .login-form-container {
+    width: 100%;
+    height: 100vh;
+    /* justify-content: unset; */
+  }
+}
+
+.login-page-logo {
+  height: 60px;
+  margin-bottom: 15px;
+  align-self: center;
+}
+.login-middle-img {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  .login-page-logo {
+    margin-bottom: 50px;
+    height: 70px;
+  }
+
+  .login-middle-img {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+.login-form {
+  width: 80%;
+  align-self: center;
+  padding: 10px;
+}
+
+@media (max-width: 576px) {
+  .login-form {
+    width: 90%;
+  }
+}
+
+.label {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #475569;
+  font-weight: bold;
+}
+
+.input {
+  width: 90%;
+  height: 20px;
+  padding: 15px;
+  padding-left: 20px;
+  background-color: #d7dfe9;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #475569;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border-width: 0px;
+  margin-top: 6px;
+  outline: none;
+}
+
+@media (max-width: 576px) {
+  .input {
+    height: 35px;
+    font-size: 18px;
+  }
+}
+
+.submit {
+  background-color: #0b69ff;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 18px;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .submit {
+    height: 60px;
+  }
+}
+
+.hide-element {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .hide-element {
+    display: block;
+  }
+}
+
+.err-text {
+  font-family: Roboto;
+  color: red;
+  font-size: 18px;
+  margin-top: 8px;
+}
